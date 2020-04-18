@@ -1,0 +1,11 @@
+{
+  "name": "yajs",
+  "version": "0.1.0",
+  "description": "YET ANOTHER JAVASCRIPT SLIDER. ✨ Simple, lightweight, responsive slider carousel.",
+  "main": "lib/js/index.js",
+  "repository": "git@github.com:stefano-rainieri/yajs.git",
+  "author": "Stefano Rainieri <ste.rainieri@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "flat": true
+}

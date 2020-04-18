@@ -1,0 +1,74 @@
+.yajs {
+  position: relative;
+  margin: 0 auto;
+  padding: 32px 0;
+  max-width: 1200px;
+
+  text-align: center;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  &__container {
+    > * {
+      display: inline-flex;
+      margin-left: 16px;
+      width: 50px;
+      height: 50px;
+      background-color: indigo;
+
+      &:last-child {
+        margin-right: 16px;
+      }
+    }
+
+    &--scrolling {
+      cursor: grabbing;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    top: calc(50% - 12px);
+
+    &--left {
+      left: 16px;
+    }
+
+    &--right {
+      right: 16px;
+    }
+
+    &--hidden {
+      visibility: hidden;
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .yajs {
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    &__container {
+      margin-left: 64px;
+      margin-right: 64px;
+      padding: 32px 0;
+      overflow-x: auto;
+      overflow-y: visible;
+      cursor: grab;
+    }
+
+    &__arrow {
+      display: block;
+    }
+  }
+}
