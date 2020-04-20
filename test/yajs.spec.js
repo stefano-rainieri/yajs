@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { Yajs } from '../lib/js/esm/yajs';
-import { DOM, DOM_NO_ARROWS } from "./dom";
+import { DOM, DOM_NO_ARROWS } from './dom';
 
 describe('Yajs', () => {
     let yajs, element, container, arrowLeft, arrowRight;

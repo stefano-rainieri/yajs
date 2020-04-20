@@ -1,6 +1,6 @@
 import { expect } from 'chai';
-import { DOM } from "./dom";
-import { Container } from "../lib/js/esm/container";
+import { DOM } from './dom';
+import { Container } from '../lib/js/esm/container';
 
 describe('Container', () => {
     let container, element;
