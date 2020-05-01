@@ -1,12 +1,11 @@
 # YAJS
 
->YET ANOTHER JAVASCRIPT SLIDER ✨ Simple, lightweight, responsive slider carousel. 
+>YET ANOTHER JAVASCRIPT SLIDER ✨ Simple, lightweight, responsive slider carousel.<br/> 
 >Slide your photos, images, cards or whatever you want easier with this library.
 
 
 ## Before
-This library has no dependencies. 
-
+This library has no dependencies.<br/>
 You have to include two files: one JS and the other CSS. 
 The CSS file applies the needed rules just in order to build the right positioning of the sliding elements.
 No other rules will be applied (backgrounds, colors, shadows etc...).
