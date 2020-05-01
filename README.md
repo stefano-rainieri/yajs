@@ -1,7 +1,6 @@
 # YAJS
 
 >YET ANOTHER JAVASCRIPT SLIDER ✨ Simple, lightweight, responsive slider carousel. 
->
 >Slide your photos, images, cards or whatever you want easier with this library.
 
 
