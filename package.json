@@ -2,7 +2,7 @@
   "name": "yajs",
   "version": "0.1.0",
   "description": "YET ANOTHER JAVASCRIPT SLIDER. ✨ Simple, lightweight, responsive slider carousel.",
-  "main": "lib/js/index.js",
+  "main": "dist/main.bundle.js",
   "repository": "git@github.com:stefano-rainieri/yajs.git",
   "author": "Stefano Rainieri <ste.rainieri@gmail.com>",
   "license": "MIT",
@@ -12,9 +12,12 @@
     "eslint": "^6.8.0",
     "esm": "^3.2.25",
     "jsdom": "^16.2.2",
-    "mocha": "^7.1.1"
+    "mocha": "^7.1.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   },
   "scripts": {
+    "build": "webpack --mode production",
     "lint": "eslint lib/js/esm/ test/",
     "test": "mocha --recursive './test/**/*.spec.js' --require esm"
   }
