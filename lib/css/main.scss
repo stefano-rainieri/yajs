@@ -1,22 +1,28 @@
 .yajs {
   position: relative;
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 0;
   max-width: 1200px;
 
   text-align: center;
   white-space: nowrap;
-  overflow-y: hidden;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
 
   &__container {
+    padding: 32px 0;
+    overflow-x: auto;
+    overflow-y: visible;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+
     > * {
       display: inline-flex;
       margin-left: 16px;
       width: 50px;
       height: 50px;
-      background-color: indigo;
+      overflow-x: auto;
+      overflow-y: visible;
+      cursor: grab;
 
       &:last-child {
         margin-right: 16px;
@@ -54,17 +60,10 @@
 
 @media screen and (min-width: 640px) {
   .yajs {
-    padding: 0;
-    overflow-y: hidden;
-    overflow-x: hidden;
-
     &__container {
       margin-left: 64px;
       margin-right: 64px;
       padding: 32px 0;
-      overflow-x: auto;
-      overflow-y: visible;
-      cursor: grab;
     }
 
     &__arrow {

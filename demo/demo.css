@@ -1,7 +1,90 @@
-.yajs__container > * {
-    background-color: indigo;
-    width: 50px;
-    height: 50px;
+html,
+body {
+    margin: 0;
+    font-family: "Poppins", -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+}
+h1,
+h3 {
+    text-align: center;
+}
+h1 {
+    margin: 60px 20px 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+h3 {
+    font-weight: 400;
+    margin: 10px 20px;
+}
+section {
+    margin-top: 60px;
+}
+
+.yajs--1 > .yajs__container > * {
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(35,47,63,.15);
+    border-radius: 8px;
+    width: 250px;
+    height: 300px;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(1) > span {
+    margin: 16px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #EAEAEA;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(1) > div {
+    flex-grow: 1;
+    margin-right: 16px;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(1) > div > p:nth-child(1) {
+    height: 10px;
+    width: 60%;
+    margin: 0;
+    background-color: #EAEAEA;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(1) > div > p:nth-child(2) {
+    height: 10px;
+    width: 100%;
+    margin: 8px 0 0;
+    background-color: #EAEAEA;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(1) > div > p:nth-child(3) {
+    height: 10px;
+    width: 80%;
+    margin: 8px 0 0;
+    background-color: #EAEAEA;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(2) {
+    background-color: #EAEAEA;
+    min-height: 150px;
+    margin-bottom: 30px;
+}
+.yajs--1 > .yajs__container > * > div:nth-child(3) {
+    background-color: #EAEAEA;
+    margin: 16px auto;
+    min-height: 10px;
+    width: 125px;
+}
+
+.yajs--2 > .yajs__container > * {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.yajs--3 > .yajs__container > * {
+    background-color: rgb(60, 63, 65);
+    width: 8px;
+    border-radius: 8px;
 }
 .yajs__arrow--left:hover {
     transform: scale(1.5);
