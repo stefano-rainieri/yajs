@@ -14,6 +14,15 @@ Of course you can add cutom class to elements don't worry.
 
 
 ## Installation
+Add Yajs to your dependencies:
+```sh
+$ yarn add [packaging and registering in progress]
+```
+
+Include the JS:
+```html
+<script type="text/javascript" src="path/to/dist/main.bundle.js"></script>
+```
 
 
 ## Usage
