@@ -29,7 +29,7 @@ Include the JS:
 
 
 ## Contributing
-Contributions are welcome. Feel free to open a PR or file an issue here on GitHub!
+Contributions are welcome. Feel free to open a PR or file an issue!
 
 
 ## License
