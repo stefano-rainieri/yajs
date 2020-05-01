@@ -33,7 +33,7 @@ Contributions are welcome. Feel free to open a PR or file an issue here on GitHu
 
 
 ## License
-Jymfony is licensed under the MIT License - see the [LICENSE](https://github.com/stefano-rainieri/yajs/blob/master/LICENSE) file for details.
+Yajs is licensed under the MIT License - see the [LICENSE](https://github.com/stefano-rainieri/yajs/blob/master/LICENSE) file for details.
 
 
 *Free Software, Hell Yeah!*
