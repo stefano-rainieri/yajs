@@ -29,6 +29,12 @@ section {
     width: 250px;
     height: 300px;
 }
+.yajs--1 > .yajs__container > *:first-child {
+    margin-left: 30px;
+}
+.yajs--1 > .yajs__container > *:last-child {
+    margin-right: 30px;
+}
 .yajs--1 > .yajs__container > * > div:nth-child(1) {
     display: flex;
     align-items: center;
