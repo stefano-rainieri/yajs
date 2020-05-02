@@ -21,7 +21,7 @@ $ yarn add [packaging and registering in progress]
 
 Include the JS:
 ```html
-<script type="text/javascript" src="path/to/dist/main.bundle.js"></script>
+<script type="text/javascript" src="path/to/yajs/dist/main.bundle.js"></script>
 ```
 
 
