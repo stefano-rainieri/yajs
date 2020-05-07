@@ -17,7 +17,7 @@ Of course, you can add custom css to inside sliding elements, don't worry.
 ## Installation
 Add Yajs to your dependencies:
 ```sh
-$ yarn add [registering-in-progress]
+$ yarn add yajs
 ```
 
 Include Yajs into your project:
