@@ -17,12 +17,12 @@ Of course, you can add custom css to inside sliding elements, don't worry.
 ## Installation
 Add Yajs to your dependencies:
 ```sh
-$ yarn add yajs
+$ yarn add @stefano-rainieri/yajs
 ```
 
 Include Yajs into your project:
 ```html
-<script type="text/javascript" src="path/to/yajs/dist/main.bundle.js"></script>
+<script type="text/javascript" src="path/to/@stefano-rainieri/yajs/dist/main.bundle.js"></script>
 ```
 
 
