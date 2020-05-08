@@ -19,9 +19,13 @@ Of course, you can add custom css to inside sliding elements, don't worry.
 
 
 ## Installation
-Add Yajs to your dependencies:
+Install Yajs with your favourite package manager:
 ```sh
 $ yarn add @stefano-rainieri/yajs
+```
+or
+```sh
+$ npm install @stefano-rainieri/yajs --save
 ```
 
 Include Yajs into your project:
@@ -31,7 +35,7 @@ Include Yajs into your project:
 
 
 ## Usage
-Add Yajs markup to auto-configure the slider carousel for your element. 
+Add Yajs markup to auto-configure the slider carousel for your element: 
 ```html
 <div class="yajs" data-yajs>
     <div class="yajs__arrow yajs__arrow--left">&lt;</div>
@@ -46,6 +50,17 @@ Add Yajs markup to auto-configure the slider carousel for your element.
 </div>
 ```
 That's all. Enjoy!
+
+
+## Examples
+Try some Yajs examples simply opening `index.html` under `demo/` folder.
+
+
+## Test
+Run Yajs test:
+```sh
+$ yarn test
+```
 
 
 ## Work in progress
