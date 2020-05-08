@@ -2,11 +2,11 @@
     <strong>YAJS</strong>
 </h1>
 <p align="center">
-    YET ANOTHER JAVASCRIPT SLIDER ✨ Simple, lightweight, responsive slider carousel.<br/>
-    Slide your photos, images, cards or whatever you want easier with this library.
+    <img src="https://raw.githubusercontent.com/stefano-rainieri/yajs/master/demo/demo.gif" height="150">
 </p>
 <p align="center">
-    <img src="https://raw.githubusercontent.com/stefano-rainieri/yajs/master/demo/demo.gif" height="150">
+    YET ANOTHER JAVASCRIPT SLIDER ✨ Simple, lightweight, responsive slider carousel.<br/>
+    Slide your photos, images, cards or whatever you want easier with this library.
 </p>
 
 ## Before
