@@ -1,13 +1,13 @@
-# YAJS
-
+<h1 align="center">
+    <strong>YAJS</strong>
+</h1>
+<p align="center">
+    YET ANOTHER JAVASCRIPT SLIDER ✨ Simple, lightweight, responsive slider carousel.<br/>
+    Slide your photos, images, cards or whatever you want easier with this library.
+</p>
 <p align="center">
     <img src="https://raw.githubusercontent.com/stefano-rainieri/yajs/master/demo/demo.gif" height="150">
 </p>
-
->YET ANOTHER JAVASCRIPT SLIDER ✨ Simple, lightweight, responsive slider carousel.
->
->Slide your photos, images, cards or whatever you want easier with this library.
-
 
 ## Before
 This library has no dependencies.
