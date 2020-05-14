@@ -12,8 +12,8 @@
 ## Before
 This library has no dependencies.
 You only have to include a JS file.
-This library is JS-centric, 'cause it is built with webpack. 
-So the CSS applied to the elements, is added via the bundled JS and just in order to make the right positioning of the sliding elements.
+It's built with webpack, so the CSS applied to the elements, is added via the bundled JS. 
+This CSS is just in order to make the right positioning of the sliding elements.
 No other rules will be applied (backgrounds, colors, shadows etc...).
 Of course, you can add custom css to inside sliding elements, don't worry.
 
@@ -28,10 +28,12 @@ or
 $ npm install @stefano-rainieri/yajs --save
 ```
 
-Include Yajs into your project:
+Include Yajs into your project, choosing `esm` or `umd` packaging:
 ```html
-<script type="text/javascript" src="path/to/@stefano-rainieri/yajs/dist/main.bundle.js"></script>
+<script type="text/javascript" src="path/to/@stefano-rainieri/yajs/dist/main.[esm|umd].bundle.js"></script>
 ```
+- `umd` package is es5-written. Compatible with majority of browsers
+- `esm` package is es6-written. Compatible with modern browsers.
 
 
 ## Usage
