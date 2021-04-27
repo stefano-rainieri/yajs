@@ -6,6 +6,17 @@ orbs:
   # See the orb's test job here: https://circleci.com/developer/orbs/orb/circleci/node#jobs-test
 
 jobs:
+  build:
+    executor:
+      name: node/default
+      tag: 'lts'
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - run:
+          command: yarn build
+          name: Build lib
   test:
     executor:
       name: node/default
@@ -19,9 +30,17 @@ jobs:
           name: Run tests
 
 workflows:
-  test_lib:
-   jobs:
-    - test
+  build_test:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
+      - test:
+          filters:
+            branches:
+              only: master
+
 
 # workflows:
 #  sample:
