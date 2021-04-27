@@ -9,6 +9,9 @@
     <img src="https://raw.githubusercontent.com/stefano-rainieri/yajs/master/demo/demo.gif" height="150">
 </p>
 
+###
+[![stefano-rainieri](https://circleci.com/gh/stefano-rainieri/yajs.svg?style=svg)](https://github.com/stefano-rainieri/yajs)
+
 ## Before
 This library has no dependencies.
 You only have to include a JS file.
