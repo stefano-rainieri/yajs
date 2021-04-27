@@ -49,9 +49,7 @@ workflows:
 #          matrix:
 #            parameters:
 #              version: ['10.24.1', '12.22.1', '14.16.1', '16.0.0', 'lts']
-          # For more information about matrix testing see the detailed blog post:
-          # https://circleci.com/blog/circleci-matrix-jobs/
-          # or the configuration reference:
-          # https://circleci.com/docs/2.0/configuration-reference/?section=reference#matrix-requires-version-21
-
-
+# For more information about matrix testing see the detailed blog post:
+# https://circleci.com/blog/circleci-matrix-jobs/
+# or the configuration reference:
+# https://circleci.com/docs/2.0/configuration-reference/?section=reference#matrix-requires-version-21
