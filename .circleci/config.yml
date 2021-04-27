@@ -1,0 +1,36 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.1
+  # The Node.js orb contains a set of prepackaged CircleCI configuration you can utilize
+  # See the orb's test job here: https://circleci.com/developer/orbs/orb/circleci/node#jobs-test
+
+#jobs:
+#  test:
+#    executor:
+#      name: node/default
+#      tag: '13'
+#    steps:
+#      - checkout
+#      - node/install-packages:
+#          pkg-manager: yarn
+#      - run:
+#          command: yarn test
+#          name: Run tests
+
+workflows:
+  sample:
+    jobs:
+      - node/test:
+          matrix:
+            parameters:
+              version: ['10.24.1', '12.22.1', '14.16.1', '16.0.0', 'lts']
+          # For more information about matrix testing see the detailed blog post:
+          # https://circleci.com/blog/circleci-matrix-jobs/
+          # or the configuration reference:
+          # https://circleci.com/docs/2.0/configuration-reference/?section=reference#matrix-requires-version-21
+
+#workflows:
+#  test_lib:
+#   jobs:
+#    - test
